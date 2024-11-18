@@ -5,7 +5,7 @@ function ProductList() {
 
     return(
         <div>
-            Productlist
+            Productlist проверка
         </div>
     )
 }
