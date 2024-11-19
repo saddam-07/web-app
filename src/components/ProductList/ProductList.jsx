@@ -6,12 +6,12 @@ import { useState } from "react";
 
 
 const products = [
-    {id: 1, price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
-    {id: 1, price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
-    {id: 1, price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
-    {id: 1, price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
-    {id: 1, price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
-    {id: 1, price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
+    {id: '1', price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
+    {id: '2', price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
+    {id: '3', price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
+    {id: '4', price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
+    {id: '5', price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
+    {id: '6', price: 1000, title: 'Куртка', description: 'Это клёвая куртка'},
 ]
 
 function getTotalPrice(items) {

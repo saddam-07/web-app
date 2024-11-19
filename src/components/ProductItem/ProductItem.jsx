@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button/Button";
 import './ProductItem.css'
 
-export default function ProductItem({product, className, onAdd}) {
+function ProductItem({product, className, onAdd}) {
     function onAddHendler() {
         onAdd(product)
     }
@@ -20,3 +20,5 @@ export default function ProductItem({product, className, onAdd}) {
         </div>
     )
 }
+
+export default ProductItem;
