@@ -37,9 +37,7 @@ function ProductList() {
 
         setAddedItems(newItems)
  
-        if(newItems.length === 0) {
-            tg.mainButton.show()
-        }else {
+        if(newItems.length !== 0) {
             tg.mainButton.show()
             tg.mainButton.setParams({
                 text: `Купить ${getTotalPrice(newItems)}`
