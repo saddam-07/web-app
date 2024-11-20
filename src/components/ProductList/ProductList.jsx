@@ -38,7 +38,7 @@ function ProductList() {
         setAddedItems(newItems)
  
         if(newItems.length === 0) {
-            tg.mainButton.hide()
+            tg.mainButton.show()
         }else {
             tg.mainButton.show()
             tg.mainButton.setParams({
